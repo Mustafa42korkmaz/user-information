@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?aile=Josefin+Sans:wght@300&aile=Karla:ital,wght@0,400; 1.300&family=Lato:ital,wght@0,300; 1,300&family=Montserrat:ital,wght@0,300; 1,100; 1.200&aile=Noto+Sans:wght@300; 400&family=Nunito+Sans:opsz,wght@6.. 12,300&family=Nunito:wght@300&family=Raleway:wght@300&family=Rubik+Doodle+Shadow&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+body{
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    width: 360px;
+    background-color:rgb(81, 216, 226);
+    color: #fff;
+    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: underline solid 1px white ;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    margin-bottom: 15px;
+}
+
+button{
+    width: 50%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0, .1);
+    cursor: pointer;
+    color: #333;
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 25%;
+
+    
+}
+@media (max-width: 600px){
+    .container{
+        width: 100%;
+    }
+}
